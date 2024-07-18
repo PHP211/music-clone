@@ -7,8 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        navbg: "#1D1C1C"
+        navbg: '#121212',
+        highlighted: '#ffffff',
+        unhighlight: '#b3b3b3',
+        btn: '#232323'
       },
+      fontFamily: {
+        body: ['Asap']
+      }
     },
   },
   plugins: [],

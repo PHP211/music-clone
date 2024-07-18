@@ -1,8 +1,12 @@
 <template>
-    <div>
-        Home Page
+    <div class='flex flex-row h-full space-x-2'>
+        <div class='basis-1/6'>
+            <Nav></Nav>
+        </div>
+        <div class='bg-gray-500 basis-5/6'>Content</div>
     </div>
-    <router-link to='/test'>
-        to test
-    </router-link>
 </template>
+
+<script setup>
+import Nav from '../components/Navigation.vue'
+</script>
